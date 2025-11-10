@@ -68,20 +68,20 @@ let handler = async (m, { conn }) => {
 ╰──── ੈ₊˚༅༴╰────︶.︶ ⸙ ͛ ͎ ͛ ︶.︶ ੈ₊˚༅
   `.trim();
 
-  conn.sendFile(m.chat, 'https://files.catbox.moe/tw0g5u.png', 'descargas.jpg', texto, m, false, {
+  conn.sendFile(m.chat, 'https://urli.info/1j7OH', 'descargas.jpg', texto, m, false, {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
         title: '📥 Comandos de Descargas para varios archivos',
         body: 'Descarga videos, música, APKs, y más',
-        thumbnailUrl: 'https://files.catbox.moe/3pw7bx.jpg',
+        thumbnailUrl: 'https://urli.info/1ekmL',
         mediaType: 1,
         renderLargerThumbnail: false,
         showAdAttribution: true,
-        mediaUrl: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P',
-        sourceUrl: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P',
+        mediaUrl: 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v',
+        sourceUrl: 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v',
         newsletterJid: '120363335626706839@newsletter',
-        newsletterName: '⏤͟͞ू⃪፝͜⁞⟡『 𝙍𝙪𝙗𝙮 𝙃𝙤𝙨𝙝𝙞𝙣𝙤 𝘽𝙤𝙩 』࿐⟡'
+        newsletterName: '✵.｡.✰ 𝕊𝕚𝕗𝕦 𝔹𝕠𝕥 ✰.｡.✵'
       }
     }
   });
