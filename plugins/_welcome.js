@@ -27,8 +27,8 @@ const iconos = [
 'https://urli.info/1j7A6',
 'https://urli.info/1j7A6',
 'https://urli.info/1j7A6',
-'https://acortar.link/u6sdqS',
-'https://acortar.link/u6sdqS'
+'https://urli.info/1j7Az',
+'https://urli.info/1j7Az'
 ];
 
 const getRandomIcono = () => iconos[Math.floor(Math.random() * iconos.length)];
