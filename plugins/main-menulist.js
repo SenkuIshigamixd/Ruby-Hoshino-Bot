@@ -38,7 +38,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     let uptime = clockString(_uptime);
     let totalreg = Object.keys(global.db.data.users).length;
 
-    const imageUrl = 'https://files.catbox.moe/yenx0h.png';
+    const imageUrl = 'https://urli.info/1j7OH';
     let media = await prepareWAMessageMedia(
       { image: { url: imageUrl } },
       { upload: conn.waUploadToServer }
@@ -135,7 +135,7 @@ id: `${_p}menubusquedas`
       body: { 
         text: `${beforeText}\n\n${bodyText}`
       },
-      footer: { text: "⏤͟͞ू⃪  ̸̷͢𝐑𝐮𝐛y͟ 𝐇𝐨𝐬𝐡𝐢n͟𖹭 𝐁𖹭t͟𑁯ᰍ" },
+      footer: { text: "✵.｡.✰ 𝕊𝕚𝕗𝕦 𝔹𝕠𝕥 ✰.｡.✵" },
       nativeFlowMessage: {
         buttons: [
           {
