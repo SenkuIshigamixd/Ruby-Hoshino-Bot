@@ -21,8 +21,8 @@ let handler = async (m, { conn }) => {
 
     if (before !== user.level) {
        
-        let avatar = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
-        let background = encodeURIComponent('https://i.ibb.co.com/2jMjYXK/IMG-20250103-WA0469.jpg');
+        let avatar = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://urli.info/1j8w0');
+        let background = encodeURIComponent('https://urli.info/1j8w0');
         let avatarURL = encodeURIComponent(avatar);
         let fromLevel = before;
         let toLevel = user.level;
