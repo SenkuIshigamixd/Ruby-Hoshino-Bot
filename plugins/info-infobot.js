@@ -74,7 +74,7 @@ ${Object.keys(nodeMemory).map(key => `${key.padEnd(10)}: ${format(nodeMemory[key
 
 
 
-    const imageUrl = 'https://acortar.link/CpaVor';
+    const imageUrl = 'https://urli.info/1ekeH';
 
     await conn.sendMessage(m.chat, {
         image: { url: imageUrl },
