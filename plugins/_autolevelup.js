@@ -6,7 +6,7 @@ handler.before = async function (m, { conn, usedPrefix }) {
 
     if (!db.data.chats[m.chat].autolevelup) return;
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender;
-    let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
+    let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://acortar.link/d6Dzx5');
     let userName = m.pushName || 'Anónimo';
     let user = global.db.data.users[m.sender];
     let chat = global.db.data.chats[m.chat];
