@@ -74,7 +74,7 @@ ${Object.keys(nodeMemory).map(key => `${key.padEnd(10)}: ${format(nodeMemory[key
 
 
 
-    const imageUrl = 'https://files.catbox.moe/pejm2g.jpeg';
+    const imageUrl = 'https://acortar.link/CpaVor';
 
     await conn.sendMessage(m.chat, {
         image: { url: imageUrl },
