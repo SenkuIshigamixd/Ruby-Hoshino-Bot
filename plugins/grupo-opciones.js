@@ -7,7 +7,7 @@ const handler = async (m, { conn }) => {
 
   const primaryBot = chat.botPrimario ? `@${chat.botPrimario.split('@')[0]}` : 'Sin establecer';
 
-  const avatar = "https://acortar.link/cbq3BT";
+  const avatar = "https://urli.info/1j7Az";
 
   const text = `╭━━━[ *CONFIGURACIÓN* ]━━━⬣
 ┃
