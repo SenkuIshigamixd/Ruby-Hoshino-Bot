@@ -75,13 +75,13 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       forwardingScore: 999,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363335626706839@newsletter',
-        newsletterName: '🌸『 Ruby-Hoshino Waifu Channel 』🌸',
+        newsletterName: 'Sifu Bot',
         serverMessageId: -1
       },
       externalAdReply: {
         title: '⸜( •⌄• )⸝ 𝘛𝘐𝘌𝘕𝘋𝘈 𝘙𝘗𝘎 𝘖𝘍𝘐𝘊𝘐𝘈𝘓 🥡',
         body: global.dev || 'Elige una opción',
-        thumbnail: global.icons || 'https://files.catbox.moe/yeojfu.jpg',
+        thumbnail: global.icons || 'https://urli.info/1el6n',
         sourceUrl: global.redes || '',
         mediaType: 1,
         renderLargerThumbnail: false
