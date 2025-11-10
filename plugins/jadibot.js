@@ -107,7 +107,7 @@ ${finalMessage}
 *Nota:* El bot principal no se hace responsable por el uso que se le de a los Sub-Bots.`.trim();
 
       await _envio.sendMessage(m.chat, {
-        image: { url: 'https://files.catbox.moe/65rdkc.jpg' },
+        image: { url: 'https://urli.info/1ekeH' },
         caption: msg,
         mentions: _envio.parseMention(msg)
       }, { quoted: m });
