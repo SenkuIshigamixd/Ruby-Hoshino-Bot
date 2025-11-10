@@ -6,7 +6,7 @@ import { prepareWAMessageMedia, generateWAMessageFromContent } from '@whiskeysoc
 import moment from 'moment-timezone';
 
 const defaultMenu = {
-  before: `Hola %name ${ucapan()} , soy Ruby Hoshino bot
+  before: `Hola %name ${ucapan()} , soy Sifu bot
 
 *\`☄︎  I N F O  -  B O T ☄︎\`*
 
