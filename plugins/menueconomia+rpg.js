@@ -89,20 +89,20 @@ _poetry⵿꤬ᩚ̸̷͠ᩘ🌸̷̸ᩚ⃨⢾ ֺ ֢ ᮫ ⵿ ─ *#christmas • #na
 > ✦ Regalo navideño.
   `.trim();
 
-  conn.sendFile(m.chat, 'https://files.catbox.moe/hs7g62.jpg', 'descargas.jpg', texto, m, false, {
+  conn.sendFile(m.chat, 'https://urli.info/1el3V', 'descargas.jpg', texto, m, false, {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
         title: '🌵 ¡chambea, gana y diviertete con estos grandiosos comandos!',
         body: '🤖 comandos de economía y rpg 🌟',
-        thumbnailUrl: 'https://files.catbox.moe/bi19e7.png',
+        thumbnailUrl: 'https://urli.info/1j8vp',
         mediaType: 1,
         renderLargerThumbnail: false,
         showAdAttribution: true,
-        mediaUrl: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P',
-        sourceUrl: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P',
+        mediaUrl: 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v',
+        sourceUrl: 'https://whatsapp.com/channel/0029VbBZVZp0bIdoFnHtP82v',
         newsletterJid: '120363335626706839@newsletter',
-        newsletterName: '⏤͟͞ू⃪፝͜⁞⟡『 𝙍𝙪𝙗𝙮 𝙃𝙤𝙨𝙝𝙞𝙣𝙤 𝘽𝙤𝙩 』࿐⟡'
+        newsletterName: '*Sifu Bot*'
       }
     }
   });
