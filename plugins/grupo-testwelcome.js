@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 
     let taguser = `@${who[0].split('@')[0]}`;
     let groupMetadata = await conn.groupMetadata(m.chat);
-    let defaultImage = 'https://files.catbox.moe/xr2m6u.jpg';
+    let defaultImage = 'https://acortar.link/u6sdqS';
 
     let img;
     try {
