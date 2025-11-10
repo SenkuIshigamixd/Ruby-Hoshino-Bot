@@ -2,33 +2,33 @@ import fs from 'fs'
 import { WAMessageStubType } from '@whiskeysockets/baileys'
 
 const newsletterJid = '120363335626706839@newsletter';
-const newsletterName = '𖥔ᰔᩚ⋆｡˚ ꒰🍒 ʀᴜʙʏ-ʜᴏꜱʜɪɴᴏ | ᴄʜᴀɴɴᴇʟ-ʙᴏᴛ 💫꒱࣭';
-const packname = '⏤͟͞ू⃪  ̸̷͢𝐑𝐮𝐛y͟ 𝐇𝐨𝐬𝐡𝐢n͟ᴏ 𝐁𝐨t͟˚₊·—̳͟͞͞♡̥';
+const newsletterName = '✵.｡.✰ 𝕊𝕚𝕗𝕦 𝔹𝕠𝕥 ✰.｡.✵';
+const packname = '✵.｡.✰ 𝕊𝕚𝕗𝕦 𝔹𝕠𝕥 ✰.｡.✵';
 
 const iconos = [
-'https://qu.ax/wwbar.jpg',
-'https://qu.ax/iFzQw.jpeg',
-'https://qu.ax/dsZyo.jpeg',
-'https://qu.ax/eNdBB.jpeg',
-'https://qu.ax/MSzGw.jpeg',
-'https://qu.ax/JqMBW.jpeg',
-'https://qu.ax/HKcSr.jpeg',
-'https://qu.ax/HOuUU.jpeg',
-'https://qu.ax/ojUNn.jpeg',
-'https://qu.ax/HtqBi.jpeg',
-'https://qu.ax/bmQOA.jpeg',
-'https://qu.ax/nTFtU.jpeg',
-'https://qu.ax/PYKgC.jpeg',
-'https://qu.ax/exeBy.jpeg',
-'https://qu.ax/SCxhf.jpeg',
-'https://qu.ax/sqxSO.jpeg',
-'https://qu.ax/cdSYJ.jpeg',
-'https://qu.ax/dRmZY.jpeg',
-'https://qu.ax/ubwLP.jpg',
-'https://qu.ax/JSgSc.jpg',
-'https://qu.ax/FUXJo.jpg',
-'https://qu.ax/qhKUf.jpg',
-'https://qu.ax/mZKgt.jpg'
+'https://acortar.link/MITKD0',
+'https://acortar.link/cbq3BT',
+'https://acortar.link/cbq3BT',
+'https://acortar.link/cbq3BT',
+'https://acortar.link/cbq3BT',
+'https://acortar.link/cbq3BT',
+'https://acortar.link/CpaVor',
+'https://acortar.link/CpaVor',
+'https://acortar.link/CpaVor',
+'https://acortar.link/jz72ru',
+'https://acortar.link/jz72ru',
+'https://acortar.link/jz72ru',
+'https://acortar.link/jz72ru',
+'https://acortar.link/jz72ru',
+'https://acortar.link/jz72ru',
+'https://acortar.link/LbhQB6',
+'https://acortar.link/LbhQB6',
+'https://acortar.link/LbhQB6',
+'https://acortar.link/u6sdqS',
+'https://acortar.link/u6sdqS',
+'https://acortar.link/u6sdqS',
+'https://acortar.link/u6sdqS',
+'https://acortar.link/u6sdqS'
 ];
 
 const getRandomIcono = () => iconos[Math.floor(Math.random() * iconos.length)];
@@ -71,7 +71,7 @@ ${desc}
 > 𝙿𝚞𝚎𝚍𝚎𝚜 𝚙𝚎𝚛𝚜𝚘𝚗𝚊𝚕𝚒𝚣𝚊𝚛 𝚎𝚜𝚝𝚎 𝚖𝚎𝚗𝚜𝚊𝚓𝚎
 > 𝚞𝚜𝚊𝚗𝚍𝚘: *#setwelcome*
 
-╰──*·˚ 🍥 ˚·*──────────╯`;
+╰──*·˚ 🐺 ˚·*──────────╯`;
 
 caption = defaultWelcomeMessage
 .replace(/@user/g, username)
@@ -149,7 +149,7 @@ serverMessageId: -1
 },
 externalAdReply: {
 title: packname,
-body: 'I🎀 𓈒꒰ 𝐘𝐚𝐲~ 𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@! (≧∇≦)/',
+body: '𝐁𝐢𝐞𝐧𝐯𝐞𝐧𝐢𝐝@! ʕ•ᴥ•ʔ',
 thumbnailUrl: getRandomIcono(),
 sourceUrl: global.redes,
 mediaType: 1,
@@ -172,7 +172,7 @@ serverMessageId: -1
 },
 externalAdReply: {
 title: packname,
-body: 'I🎀 𓈒꒰ 𝐒𝐚𝐲𝐨̄𝐧𝐚𝐫𝐚... (TωT)/',
+body: '𝕊𝕚𝕗𝕦... (TωT)/',
 thumbnailUrl: getRandomIcono(),
 sourceUrl: global.redes,
 mediaType: 1,
